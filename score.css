@@ -1,0 +1,179 @@
+body{
+    background-color: #14213dff;
+    background-size: contain;
+    margin: 0px;
+    text-align: center;
+}
+
+@font-face{
+    src: url(../fonts/DS-DIGIB.TTF);
+    font-family: digital;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 4px solid aliceblue;
+    height: 66vh;
+
+}
+
+.team{
+    border: 8px solid rgb(61, 71, 92);
+    border-radius: 24px;
+    background-color: rgb(19, 31, 55);
+    height: 60vh;
+    width: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    margin: 40px 0px 0px 0px;
+    color: #fca311ff;
+    font-family: Cambria, Cochin, Georgia,
+     Times, 'Times New Roman', serif;
+    font-size: 67px;
+}
+
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 6px solid rgb(35, 43, 51);
+    border-radius: 16px;
+    height: 240px;
+    width: 240px;
+    margin-top: 0px;
+}
+
+
+
+.num{
+    font-family: digital;
+    color: crimson;
+    font-size: 120px;
+}
+
+
+.buttons{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.btn{
+    font-size: 16px;
+    padding: 0px 26px;
+    border: 4px solid rgb(199, 204, 209);
+    border-radius: 16px;
+    font-family: digital;
+    transition: all 0.2s ease;
+}
+
+.btn:hover{
+    border-color: darkred;
+}
+.btn:active{
+    scale: 0.9;
+}
+
+
+.winnerWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    border-bottom: 4px solid aliceblue;
+    height: 33vh;
+}
+
+.winnerScreen{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffcf2ff;
+    border: 8px solid rgb(80, 74, 67);
+    border-radius: 16px;
+    height: 240px;
+    width: 840px;
+    margin-top: 40px;
+}
+
+
+.winnerTitle{
+    margin:10px 0px 0px 0px;
+    color: darkred;
+    font-family: Cambria, Cochin, Georgia,
+     Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+.winner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#leading{
+
+    margin:0px 0px 65px 0px;
+    color: #ffd60a;
+    font-family: Cambria, Cochin, Georgia,
+     Times, 'Times New Roman', serif;
+    font-size: 67px;
+    text-shadow: 0px 0px 1.5px #292925;
+}
+
+#newGame{
+    margin: 45px;
+    font-size: 25px;
+    background-color: #606c38;
+    border-color: #283618;
+}
+
+
+#newGame:hover{
+    border-color: darkred;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*$black: #000000ff;
+$prussian-blue: #14213dff;
+$orange: #fca311ff;
+$alabaster-grey: #e5e5e5ff;
+$white: #ffffffff;
+
+$floral-white: #fffcf2ff;
+$dust-grey: #ccc5b9ff;
+$charcoal-brown: #403d39ff;
+$carbon-black: #252422ff;
+$spicy-paprika: #eb5e28ff;
+
+
+#dbb42c

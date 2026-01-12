@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scoreboard</title>
+    <link rel="stylesheet" href="score.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <div class="team" id="home">
+
+            <div class="tilte">
+                <h1 class="title">Home</h1>
+            </div>
+
+            <div class="screen">
+                <h1 class="num" id="homeNum">0</h1>
+            </div>
+
+            <div class="buttons">
+
+                <button class="btn" id="home1" onclick="increment(0,1)"><h1>+1</h1></button>
+                <button class="btn" id="home2" onclick="increment(0,2)"><h1>+2</h1></button>
+                <button class="btn" id="home3" onclick="increment(0,3)"><h1>+3</h1></button>
+
+            </div>
+        </div>
+
+        <div class="team" id="guest">
+
+            <div class=" tilte">
+                <h1 class="title">guest</h1>
+            </div>
+
+            <div class="screen">
+                <h1 class="num" id="guestNum">0</h1>
+            </div>
+
+            <div class="buttons">
+
+                <button class="btn" id="guest1" onclick="increment(1,1)"><h1>+1</h1></button>
+                <button class="btn" id="guest2" onclick="increment(1,2)"><h1>+2</h1></button>
+                <button class="btn" id="guest3" onclick="increment(1,3)"><h1>+3</h1></button>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="winnerWrap">
+
+        <div class="winnerScreen">
+
+            <div class="winnerTitle">
+
+                <h1 class="winnerTitle">Leading</h1>
+
+            </div>
+
+            <div class="winner">
+
+                <div>
+                    <h1 id="leading">Home</h1>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+        <button class="btn" id="newGame" onclick="newGame()"
+        ><h1>New Game</h1>
+        </button>
+
+
+
+    <script src="score.js"></script>
+</body>
+</html>
