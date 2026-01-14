@@ -148,6 +148,11 @@ body{
     border-color: darkred;
 }
 
+.waltz{
+    border: 8px solid rgb(80, 74, 67);
+    border-radius: 16px;
+    margin: 25px;
+}
 
 
 
